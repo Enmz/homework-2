@@ -1,0 +1,90 @@
+@import url('reset.css');
+
+h1 {
+	font-size: 40px;
+  line-height: 76px; 
+  font-weight: 600; 
+}
+h2 {
+	font-size: 30px;
+  line-height: 76px; 
+  font-weight: 600; 
+}
+
+p {
+  margin: 8px 0 16px;
+  font-size: 20px;
+  line-height: 24px;
+ }
+
+body > div {
+  width: 1200px; 
+  margin: 50px auto; 
+  font-size: 20px; 
+  font-weight: 300;
+  text-align: center; 
+  line-height: 24px; 
+  border: 5px double; 
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+div > div {
+  text-align: justify;
+  padding: 10px
+}
+
+/*
+додатковий стиль div на головній
+*/
+#main_container {
+  border: 5px double blue;
+  font-weight: 600;
+  }
+
+/*
+додатковий стиль sub-div на головній
+*/
+.sub_container_1 {
+  background: lightgray;
+}
+.sub_container_2 {
+  color: white;
+  background: grey;
+}
+
+/*
+додатковий стиль div для таблиці
+*/
+#table_container {
+  border: 0;
+  text-align: justify;
+  line-height: 44px; 
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border: 5px double white;
+}
+td {
+  width: 150px;
+  height: 150px;
+}
+.orange {
+  background-color: #F8BB3B;
+}
+.grey {
+  background-color: grey;
+}
+.limegreen {
+  background-color: limegreen;
+}
+.green {
+  background-color: #4F5919;
+}
+.brown {
+  background-color: #173C16;
+}
+.blue {
+  background-color: blue
+}
